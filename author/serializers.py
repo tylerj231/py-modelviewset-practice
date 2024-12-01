@@ -3,6 +3,6 @@ from author.models import Author
 
 
 class AuthorSerializer(serializers.ModelSerializer):
-    class  Meta:
+    class Meta:
         model = Author
         fields = "__all__"
